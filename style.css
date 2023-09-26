@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.mascara-icon {
+    cursor: pointer;
+    width: 130px;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+
+
