@@ -1,18 +1,10 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.mascara {
+    margin-bottom: 1000px;
 }
 
-.mascara-icon {
-    cursor: pointer;
-    width: 130px;
-}
-
-.container-header {
-    display: flex;
-    align-items: center;
-}
 
 
 
