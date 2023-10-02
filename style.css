@@ -1,9 +1,114 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-.mascara {
-    margin-bottom: 1000px;
+* {
+    margin: 0rem;
+    overflow: hidden;
 }
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;  /* Retira os pontos ao lado da lista */
+}
+
+.container-one {
+    display: flex;
+    color: black;
+    padding: 0.625rem;
+  }
+
+.icon-menu {
+    margin-right: 25%;
+    cursor: pointer;
+  }
+
+.icon-menu img {
+    width: 8.125rem;
+    height: 8.125rem;
+  }
+
+.lista-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    flex-wrap: wrap;
+
+  }
+  
+.lista-menu li {
+    margin: 0 1.25rem;
+  }
+  
+.lista-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-size: 1.5625rem;
+  }
+  
+.lista-menu a:hover {
+    color: #ff9900;
+  }
+
+.text {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sub-container {
+    width: 30%;
+    margin-left: 12.5rem;
+    margin-top: 8.75rem;
+    margin-right: 6.25rem;
+}
+
+.container-two h1 {
+    font-size: 3.75rem;
+    font-family: 'Permanent Marker';
+}
+
+.container-two p {
+    font-size: 1.375rem;
+    font-family: 'Permanent Marker';
+}
+
+
+.container-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Certifica-se de que o vídeo fique atrás do conteúdo */
+}
+
+.container-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top; 
+}
+
+audio {
+  display: none;
+}
+
+
+
+
+
+
 
 
 
