@@ -3,7 +3,7 @@
 
 * {
     margin: 0rem;
-    overflow: hidden;
+    
 }
 
 ul {
@@ -104,6 +104,14 @@ audio {
   display: none;
 }
 
+.container-nav {
+  margin-top: 60px;
+}
+
+.btn2 {
+  margin-top: 42px;
+  margin-left: 100px;
+}
 
 
 
