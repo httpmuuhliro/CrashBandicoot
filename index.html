@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CRASH BANDICOOT</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="button.css">
-    <link rel="stylesheet" href="button-pag-atual.css">
+    <link rel="stylesheet" href="style-nav.css">
 <body>
 <main>
     <div class="container-video">
@@ -21,20 +20,19 @@
                     <li><img src="imagens/akuaku.png" alt="AkuAku" width="110px" class="icon" id="akuakuIcon"></li>
                 </ul>
             </div>
-            <div class="container-nav">
-            <button data-text="Awesome" class="button">
-                <span class="actual-text">&nbsp;HOME&nbsp;</span>
-                <span class="hover-text" aria-hidden="true">&nbsp;HOME&nbsp;</span>
-            </div>
-            <div>
-
-            </div>
+            <div class="lista-menu">
+                <li>
+                    <a href="#" id="link" class="song-nav"><ul>HOME</ul></a>
+                    <a href="viloes.html" class="song-nav"><ul>VILÕES</ul></a>
+                    <a href="race.html" class="song-nav"><ul>TEAM RACING</ul></a>
+                    <a href="family.html" class="song-nav"><ul>FAMÍLIA BANDICOOT</ul></a>
+                </li>
         </nav>
     </header>
         <article>
             <div class="container-two">
                <div class="sub-container">
-                    <h1 class="text"><strong>CRASH  BANDICOOT</strong></h1>
+               <h1 class="text"><strong>CRASH  BANDICOOT</strong></h1>
                     <p class="text">Crash Bandicoot é um popular jogo de plataforma desenvolvido pela Naughty Dog, lançado em 1996. Os jogadores controlam Crash, um bandicoot que luta contra o vilão Dr. Neo Cortex e seus capangas, atravessando níveis desafiadores, coletando itens e derrotando inimigos em uma aventura divertida.</p>
                </div>
                <div>
@@ -49,10 +47,17 @@
             <audio id="akuakuAudio">
                 <source src="song/akuaku.mp3" type="audio/mpeg">
             </audio>
+            <audio>
+                <source src="song/menu.mp3" type="audio/mpeg">
+            </audio>
         </div>
+        <footer>
+            <div>
+                
+            </div>
+        </footer>
 </main>
-<script src="index.js">   
-</script>
+<script src="index.js"></script>
 </body>
 </html>
 
